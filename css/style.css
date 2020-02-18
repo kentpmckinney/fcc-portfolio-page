@@ -1,18 +1,98 @@
 body {
-  font-size: 5vmin;
+  font-size: 2vmin;
+  font-family: monospace;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   body {
-    font-size: 4vmin;
   }
 }
 
 #navbar {
-  position: fixed;
-  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: right;
 }
 
 #welcome-section {
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+header, footer {
+  display: flex;
+  flex-direction: row;
+  align-content: top;
+  justify-content: space-between;
+}
+
+#header {
+  border-bottom: 1px solid;
+  margin-bottom: 4vmin;
+  /* position: fixed;
+  top: 0;
+  margin-bottom: 150px; */
+}
+
+main {
+  overflow: auto;
+}
+
+#menu {
+
+}
+
+ul {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
+  list-style-type: none;
+}
+
+li {
+  /* margin-left: 2vmin; */
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+}
+
+li a {
+  /* display: inline; */
+  font-size: 3vmin;
+  text-decoration: none;
+  color: black;
+}
+
+li:hover {
+  /* animation-name: stand-out;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards; */
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 5vmin;
+}
+
+h2 {
+  font-size: 2vmin;
+}
+
+#title {
+  line-height: 0.2em;
+}
+
+section {
+  
+}
+
+@keyframes stand-out {
+  0% {
+    font-weight: normal;
+  }
+  100% {
+    font-weight: bold;
+    
+  }
 }
