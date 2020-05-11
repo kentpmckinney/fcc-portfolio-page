@@ -1,5 +1,5 @@
 <!-- Category: FreeCodeCamp;HTML/CSS/JS -->
-# Portfolio Paghe
+# Portfolio Page
 
 A generic portfolio website page
 
